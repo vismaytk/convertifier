@@ -2,6 +2,7 @@
 venv/
 env/
 ENV/
+.env
 
 # Python
 __pycache__/
@@ -29,4 +30,31 @@ wheels/
 .idea/
 .vscode/
 *.swp
-*.swo 
+*.swo
+.DS_Store
+
+# Logs
+*.log
+logs/
+log/
+
+# Streamlit
+.streamlit/
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Local development settings
+local_settings.py
+db.sqlite3 
